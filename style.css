@@ -4,8 +4,6 @@ body{
     background-image: url("/Fotos/foto3.jpg");
     background-size: cover;
     image-rendering: auto;
-    
-
     background-repeat: repeat-y;
    
 }
@@ -25,11 +23,18 @@ border-radius: 15px;
 border-width: 5px;
 
 
+/* esto sirve para hacer menus
+
+position: fixed;
+top: 1px;
+*/
+
+
 /*centrar texto y borde*/
 display:table;
 margin: 0% auto;
 text-align: center; 
-padding: 10px 50px 10px 50px /*mover los bordes*/
+padding: 10px 40px 10px 40px /*mover los bordes*/
 
 /*dotted, dashed, solid, double, groove, 
 ridge, inset, outset, none, hidden*/
@@ -83,6 +88,11 @@ border-width: 3px;
 
 background-color: pink;
 text-decoration: underline none;
+
+position: sticky;
+top: 0px;
+z-index: 10;
+
 }
 
 
@@ -137,7 +147,6 @@ div img{
   border-style: double;   
   
 }
-
 
 
 /*videos*/
