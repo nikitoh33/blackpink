@@ -5,6 +5,7 @@ body{
     background-size: contain;
     image-rendering: auto;
     background-repeat: repeat-y;
+    background-repeat: repeat-x;
 }
 
 /*titulo*/
