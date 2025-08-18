@@ -1,16 +1,10 @@
 
 body{
   
-
-  
     background-image: url("/Fotos/foto3.jpg");
     background-size: contain;
-   
-   
     image-rendering: auto;
-   
-    
-
+    background-repeat: repeat-y;
 }
 
 /*titulo*/
