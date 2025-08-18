@@ -1,17 +1,19 @@
 
-
-
 /*titulo*/
-.title {
+#title{ 
 font-size: 65px;
-color: rgb(214, 117, 117);
-/* border: 5px black double;
- */
+color: rgb(230, 124, 142);
 
+/*fondo del borde*/
+background-color: black;
+
+/*bordes*/
 border-style:double ;
 border-color: black;
 border-radius: 15px;
 border-width: 5px;
+
+text-align: center; /*centrar texto*/
 
 /*dotted, dashed, solid, double, groove, 
 ridge, inset, outset, none, hidden*/
@@ -22,12 +24,14 @@ ridge, inset, outset, none, hidden*/
 .intro{color: grey;}
 
 /*listado de nombre*/
-div h3 {color: rgb(215, 73, 97);}
+div h3 {color: rgb(215, 73, 97);
+text-decoration: none;}
 
 /*nombre de integrantes*/
 h2{
     font-size: 24px;
-    color: black
+    color: black;
+    text-decoration: underline;
 }
 
 /*descripcion individual*/
@@ -36,15 +40,22 @@ h2{
 }
 
 /* m/v */
-h3{color: rgb(192, 60, 82);}
-h1{color:rgb(205, 116, 130);
+h3{color: rgb(192, 60, 82);
+text-decoration: underline;
+}
+
+h1{color:rgb(0, 0, 0);
 border: 5px black inset;
 border-radius: 10px;
+background-color: pink;
 }
 
 .nombres{
+font-size: 23px;
 border-style:ridge ;
 border-color: black;
 /*border-radius: 15px;*/
 border-width: 3px;
+background-color: pink;
+text-decoration: underline none;
 }
