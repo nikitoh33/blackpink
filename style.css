@@ -1,4 +1,8 @@
 
+body{
+    background-color: pink;
+}
+
 /*titulo*/
 #title{ 
 font-size: 65px;
@@ -51,11 +55,62 @@ background-color: pink;
 }
 
 .nombres{
+color:black;
 font-size: 23px;
+
 border-style:ridge ;
 border-color: black;
 /*border-radius: 15px;*/
 border-width: 3px;
+
 background-color: pink;
 text-decoration: underline none;
+}
+
+
+/*Nombre con fondo de portada*/
+.Jennie{
+    font-size: 65px;
+    color: white;
+    background-color: pink;
+    background-image: url("Fotos/Jennie.jpeg");
+    background-size: contain;
+    height: 100px;
+}
+.Jisso{
+    font-size: 65px;
+    color: white;
+    background-color: pink;
+    background-image: url("Fotos/Jisso.jpeg");
+    background-size: contain;
+    height: 100px;
+}
+.Lisa{
+    font-size: 65px;
+    color: white;
+    background-color: pink;
+    background-image: url("Fotos/Lisa.jpeg");
+    background-size: contain;
+    height: 100px;
+}
+.Rose{
+    font-size: 65px;
+    color: white;
+    background-color: pink;
+    background-image: url("Fotos/Rose.jpeg");
+    background-size: contain;
+    height: 100px;
+}
+
+
+/*Fotos*/
+div img{
+  width: 250px;    
+  height: 250px;   
+  object-fit: cover; 
+  margin: 5px; 
+  
+  border: 7px;
+  border-style: double;   
+  
 }
