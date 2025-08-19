@@ -47,11 +47,19 @@ ridge, inset, outset, none, hidden*/
     color: grey;}
 
 /*listado de nombre*/
-div h3 {
-    padding: 0;
-    margin: 0;
-    color: rgb(215, 73, 97);
+.lista {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    border: 6px;
+    width: 400px;
+    height: 200px;
+    background-image: url(Fotos/integrantes.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: double;
+    border-color: rgb(212, 87, 87);
+    
 }
 
 /*nombre de integrantes*/
@@ -69,6 +77,7 @@ h2{
 
 /* m/v */
 h3{color: rgb(192, 60, 82);
+    font-size: 30px;
 text-decoration: underline;
 }
 
@@ -196,6 +205,9 @@ div img{
 
 
 /*videos*/
+.Videos{
+    text-align: center;
+}
 div iframe{
 
  width: 440px;    
@@ -210,10 +222,14 @@ div iframe{
 }
 
 /*Links*/
+.Links{
+    text-align: center;
+}
+
 a:link{
     border: 1px;
     border-radius: 20px;
-    border-style: solid;
+    
     font-size: 30px;
     text-decoration: none;
     cursor:pointer;
