@@ -89,6 +89,7 @@ border-width: 3px;
 background-color: pink;
 text-decoration: underline none;
 
+/*Nombres flotantes*/
 position: sticky;
 top: 0px;
 z-index: 10;
@@ -152,8 +153,8 @@ div img{
 /*videos*/
 div iframe{
 
- width: 350px;    
- height: 250px;   
+ width: 300px;    
+ height: 200px;   
  object-fit: cover;
  margin: 3px;
 
@@ -175,4 +176,9 @@ a:link{
     object-fit: cover;
     cursor:pointer;
 
+}
+
+.todo{
+    width: 700px;
+    margin: 0 auto;
 }
