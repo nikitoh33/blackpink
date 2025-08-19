@@ -34,7 +34,7 @@ top: 1px;
 display:table;
 margin: 0% auto;
 text-align: center; 
-padding: 10px 40px 10px 40px /*mover los bordes*/
+padding: 10px 30px 10px 30px /*mover los bordes*/
 
 /*dotted, dashed, solid, double, groove, 
 ridge, inset, outset, none, hidden*/
@@ -153,8 +153,8 @@ div img{
 /*videos*/
 div iframe{
 
- width: 300px;    
- height: 200px;   
+ width: 400px;    
+ height: 320px;   
  object-fit: cover;
  margin: 3px;
 
