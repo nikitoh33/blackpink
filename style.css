@@ -10,7 +10,7 @@ body{
 
 /*titulo*/
 #title{ 
-font-size: 65px;
+font-size: 60px;
 color: rgb(230, 124, 142);
 
 /*fondo del borde*/
@@ -96,7 +96,7 @@ background-color: pink;
 color:black;
 font-size: 34px;
 text-align: center;
-padding: 12px 18px;
+padding: 3px 20px;
 
 text-shadow: 5px 5px 4px rgb(255, 0, 0);
 
@@ -109,13 +109,14 @@ border-width: 3px;
 background-color: pink;
 text-decoration: underline none;
 
-display: inline-block;
+display: table;
+margin: 0 auto;
+text-align: center;
 
 /*Nombres flotantes*/
 position: sticky;
 top: 0px;
-left: 50%;
-transform: translateX(-50%);
+
 z-index: 10;
 
 
@@ -153,7 +154,6 @@ text-decoration: underline none;
     margin: 18px;
     
 }
-
 .Jisso{
     font-size: 65px;
     color: white;
@@ -199,8 +199,8 @@ text-decoration: underline none;
 }
 
 div img{
-  width: 150px;    
-  height: 150px;   
+  width: 160px;    
+  height: 160px;   
   object-fit: cover; 
   margin: 5px; 
   
@@ -217,14 +217,14 @@ div img{
 }
 div iframe{
 
- width: 450px;    
+ width: 480px;    
  height: 320px;   
  object-fit: cover;
  margin: 3px;
 
  border:2px;
  border-radius: 10px;
- border-style: dashed;
+ border-style: solid;
 
 }
 
