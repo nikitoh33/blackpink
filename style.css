@@ -230,10 +230,10 @@ a:link{
     border: 1px;
     border-radius: 10px;
     
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     cursor:pointer;
-    margin: 30px;
+    margin: 1px;
 
     background-size: contain;
     image-rendering: auto;
