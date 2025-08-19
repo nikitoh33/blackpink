@@ -139,8 +139,8 @@ z-index: 10;
 
 /*Fotos*/
 div img{
-  width: 250px;    
-  height: 250px;   
+  width: 200px;    
+  height: 200px;   
   object-fit: cover; 
   margin: 5px; 
   
@@ -179,6 +179,6 @@ a:link{
 }
 
 .todo{
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
 }
