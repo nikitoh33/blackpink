@@ -1,7 +1,7 @@
 
 body{
   
-    background-image: url("/Fotos/foto3.jpg");
+    background-image: url("Fotos/foto3.jpg");
     background-size: cover;
     image-rendering: auto;
     background-repeat: repeat-y;
@@ -78,6 +78,11 @@ border-radius: 10px;
 background-color: pink;
 }
 
+
+.bloque-para-no-solapar {
+  position: relative; /* marco los limites del sticky del .nombre */
+}
+
 .nombres{
 color:black;
 font-size: 34px;
@@ -87,7 +92,7 @@ text-shadow: 5px 5px 4px rgb(255, 0, 0);
 
 border-style:ridge ;
 border-color: black;
-/*border-radius: 15px;*/
+border-radius: 15px;
 border-width: 3px;
 
 background-color: pink;
@@ -97,6 +102,23 @@ text-decoration: underline none;
 position: sticky;
 top: 0px;
 z-index: 10;
+
+}
+
+.nombres-mv{
+color:black;
+font-size: 34px;
+text-align: center;
+
+text-shadow: 5px 5px 4px rgb(255, 0, 0);
+
+border-style:ridge ;
+border-color: black;
+border-radius: 15px;
+border-width: 3px;
+
+background-color: pink;
+text-decoration: underline none;
 
 }
 
@@ -113,8 +135,6 @@ z-index: 10;
     
     padding: 10px;
     margin: 18px;
-   
-    
     
 }
 
@@ -157,6 +177,11 @@ z-index: 10;
 
 
 /*Fotos*/
+
+.Fotos{
+    text-align: center;
+}
+
 div img{
   width: 200px;    
   height: 200px;   
@@ -165,6 +190,7 @@ div img{
   
   border: 7px;
   border-style: double;   
+  text-align: center;
   
 }
 
@@ -185,16 +211,18 @@ div iframe{
 
 /*Links*/
 a:link{
-
+    border: 1px;
     border-radius: 20px;
-    border-style: double;
-    font-size: 25px;
-    padding: 15px;
-    background-color: palevioletred;
+    border-style: solid;
+    font-size: 30px;
     text-decoration: none;
-    object-fit: cover;
     cursor:pointer;
     margin: 10px;
+
+    background-size: contain;
+    image-rendering: auto;
+    background-repeat: repeat-y;
+    padding: 10px;
     
 }
 
@@ -213,8 +241,6 @@ table {
   
 }
 
-
-
 table td:hover{
     background-color: rgb(234, 126, 126);
 }
@@ -225,3 +251,22 @@ table td:hover{
     margin: 30px;
 }
 
+div button{
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(224, 113, 113);
+    cursor: pointer;
+    
+    
+    background-image: url("Fotos/foto3.jpg") ;
+    image-rendering: auto;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.Para_completar {
+    text-align: center;
+}
