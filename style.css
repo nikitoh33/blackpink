@@ -106,7 +106,12 @@ border-radius: 15px;
 border-width: 3px;
 
 
-background-color: pink;
+    background-image: url("Fotos/foto3.jpg") ;
+    image-rendering: auto;
+    background-repeat: repeat-y;
+    background-size: cover;
+
+
 text-decoration: underline none;
 
 display: table;
