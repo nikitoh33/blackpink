@@ -228,12 +228,12 @@ div iframe{
 
 a:link{
     border: 1px;
-    border-radius: 20px;
+    border-radius: 10px;
     
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     cursor:pointer;
-    margin: 10px;
+    margin: 30px;
 
     background-size: contain;
     image-rendering: auto;
