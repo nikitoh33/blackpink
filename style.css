@@ -47,8 +47,12 @@ ridge, inset, outset, none, hidden*/
     color: grey;}
 
 /*listado de nombre*/
-div h3 {color: rgb(215, 73, 97);
-text-decoration: none;}
+div h3 {
+    padding: 0;
+    margin: 0;
+    color: rgb(215, 73, 97);
+    text-decoration: none;
+}
 
 /*nombre de integrantes*/
 h2{
@@ -97,7 +101,7 @@ z-index: 10;
 }
 
 
-/*Nombre con fondo de portada*/
+/*Banner*/
 .Jennie{
     font-size: 65px;
     color: white;
@@ -107,7 +111,13 @@ z-index: 10;
     height: 100px;
     border-radius: 30px;
     
+    padding: 10px;
+    margin: 18px;
+   
+    
+    
 }
+
 .Jisso{
     font-size: 65px;
     color: white;
@@ -116,6 +126,9 @@ z-index: 10;
     background-size: contain;
     height: 100px;
     border-radius: 30px;
+
+    padding: 10px;
+    margin: 18px;
 }
 .Lisa{
     font-size: 65px;
@@ -125,6 +138,9 @@ z-index: 10;
     background-size: contain;
     height: 100px;
     border-radius: 30px;
+
+    padding: 10px;
+    margin: 18px;
 }
 .Rose{
     font-size: 65px;
@@ -134,6 +150,9 @@ z-index: 10;
     background-size: contain;
     height: 100px;
     border-radius: 30px;
+
+    padding: 10px;
+    margin: 18px;
 }
 
 
@@ -158,9 +177,9 @@ div iframe{
  object-fit: cover;
  margin: 3px;
 
-border: 2px;
-border-radius: 10px;
-border-style: dashed;
+ border:2px;
+ border-radius: 10px;
+ border-style: dashed;
 
 }
 
@@ -175,10 +194,34 @@ a:link{
     text-decoration: none;
     object-fit: cover;
     cursor:pointer;
-
+    margin: 10px;
+    
 }
 
 .todo{
     max-width: 1000px;
     margin: 0 auto;
 }
+
+table {
+
+  border: 5px;
+  margin: 0 auto;
+  text-align: center; 
+  padding: 10px 30px 10px 30px ;
+  
+  
+}
+
+
+
+table td:hover{
+    background-color: rgb(234, 126, 126);
+}
+
+.album{
+    font-size: 19px;
+    background-color: pink;
+    margin: 30px;
+}
+
