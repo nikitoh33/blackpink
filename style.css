@@ -192,8 +192,8 @@ text-decoration: underline none;
 }
 
 div img{
-  width: 200px;    
-  height: 200px;   
+  width: 150px;    
+  height: 150px;   
   object-fit: cover; 
   margin: 5px; 
   
@@ -210,7 +210,7 @@ div img{
 }
 div iframe{
 
- width: 440px;    
+ width: 400px;    
  height: 320px;   
  object-fit: cover;
  margin: 3px;
