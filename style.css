@@ -96,6 +96,7 @@ background-color: pink;
 color:black;
 font-size: 34px;
 text-align: center;
+padding: 12px 18px;
 
 text-shadow: 5px 5px 4px rgb(255, 0, 0);
 
@@ -104,13 +105,19 @@ border-color: black;
 border-radius: 15px;
 border-width: 3px;
 
+
 background-color: pink;
 text-decoration: underline none;
+
+display: inline-block;
 
 /*Nombres flotantes*/
 position: sticky;
 top: 0px;
+left: 50%;
+transform: translateX(-50%);
 z-index: 10;
+
 
 }
 
@@ -285,4 +292,9 @@ div button{
 
 .Para_completar {
     text-align: center;
+}
+
+.house{
+    text-align: center;
+    
 }
