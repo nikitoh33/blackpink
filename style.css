@@ -78,7 +78,7 @@ h2{
 /* m/v */
 h3{color: rgb(192, 60, 82);
     font-size: 30px;
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 h1{color:rgb(0, 0, 0);
@@ -289,7 +289,7 @@ div button{
     cursor: pointer;
     
     
-    background-image: url("Fotos/foto3.jpg") ;
+    background-image: url("Fotos/foto2.jpg") ;
     image-rendering: auto;
     background-repeat: repeat-y;
     background-size: cover;
@@ -302,4 +302,44 @@ div button{
 .house{
     text-align: center;
     
+}
+
+
+.curiosidades{
+    display: flex;
+    justify-content: center;
+    background-image: url(Fotos/foto3.jpg);
+}
+
+.dato{
+    background-color: pink;
+    width: 30%;
+    margin: 10px;
+    border-style: groove ;
+    text-align: center;
+}
+
+
+@media (max-width: 400px) {
+
+    .curiosidades{
+        background-color: pink;
+    }
+
+    .dato{
+        display: inline-block;
+        flex-direction: column;
+
+    }
+}
+
+
+/*Style paginas*/
+
+.LinkIntegrantes{
+
+    color: black;
+    background-color: pink;
+    border-style: double;
+
 }
